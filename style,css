@@ -1,0 +1,38 @@
+.row{
+    display: -webkit-box;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+img{
+    height:250px;
+} 
+
+body{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: sandybrown;
+}
+
+.card{
+  margin-top: 30px;
+  margin-left: 30px;
+  height:550px !important;
+}
+
+.card-body{
+  background-color: navajowhite;
+}
+
+.card-text{
+  padding: 5px;
+}
+
+.product-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
