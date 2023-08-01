@@ -59,7 +59,7 @@ function displayCategoryData(category) {
             button.addEventListener("click", function (e) {
                 e.preventDefault();
                 updateCartCount();
-                alert(`${data[index].title} Added to Cart`);
+                alert(`Selected Product Added to Cart`);
             });
         });
     });
